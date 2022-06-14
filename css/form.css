@@ -12,14 +12,15 @@
 
 .form__input {
     padding: 10px;
-    border: 1 px solid #ddd
+    border: 1px solid #ddd
 }
 
 .form__button {
-    padding: 10 px;
+    padding: 10px;
     border: none;
     color: white;
     background-color: teal;
+    cursor: pointer;
 }
 
 .form__button:hover {
