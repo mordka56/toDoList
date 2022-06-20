@@ -12,9 +12,15 @@
     padding: 10px;
     border-bottom: 1px solid #ddd;
 }
-.tasks__content{
+
+.tasks__item--hidden {
+    display: none;
+}
+
+.tasks__content {
     word-break: break-all;
 }
+
 .tasks__content--done {
     text-decoration: line-through;
 }
@@ -25,6 +31,7 @@
     width: 30px;
     height: 30px;
     padding: 0;
+    transition: background 0.5s;
 }
 
 .tasks__button--remove {
