@@ -4,11 +4,22 @@
     box-shadow: 0 0 5px #ddd;
 }
 
+.section__mainHeader {
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+    border-bottom: 1px solid #ccc;
+}
+
 .section__header {
     font-size: 20px;
     padding: 20px;
     margin: 0;
-   border-bottom: 1px solid #ccc;
+
 }
 
 .section__body {

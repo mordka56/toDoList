@@ -19,8 +19,8 @@
     }
 }
 
-.buttons_button:hover {
-    background-color: rgb(0, 158, 158);
+.buttons__button:hover {
+    color: rgb(0, 213, 213);
 }
 
 .buttons__button:disabled {
